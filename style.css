@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(45deg , #0a0a0a , #3a4452);
+}
+
+#display{
+    width: 370px;
+    height: 540px;
+    border: 1px solid rgb(202, 190, 190);
+    border-radius: 4px;
+    text-align: center;
+    margin: 23%;
+    /* margin: 200px; */
+}
+
+#show{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    margin: 22px;
+    margin-top: 21px;
+    text-align: right;
+    font-size: 33px;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: -4px -4px 10px rgba(201, 201, 201, 0.363);
+    margin: 10px;
+
+}
+
+#sym{
+    color: rgb(3, 225, 3);
+}
+
+#equal{
+   background-color: rgb(129, 150, 87);
+}

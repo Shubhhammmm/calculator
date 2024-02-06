@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="" id="display" >
+      <input type="text" name="" id="show" value="" placeholder="0" />
+
+      <br />
+
+       <!-- All clear Button (will clear the numbers)  -->
+      <input type="button"  class="btn" value="AC" name="" id="sym" onclick="display.show.value = '' " />
+
+
+       <!-- Delete  Button (delet 1 by 1)  -->
+      <input type="button"  class="btn" value="DEL" name="" id="sym" onclick="display.show.value = display.show.value.toString().slice(0,-1) " />
+
+        <!-- pointer Button  -->
+
+      <input type="button" class="btn" value="." name="" id="sym" onclick="display.show.value += '.' " />
+
+        <!-- Percentage Button  -->
+
+      <input type="button" class="btn" value="%" name="" id="sym" onclick="display.show.value += '%' " />
+
+      <br />
+
+        <!-- 1 Button  -->
+
+      <input type="button" class="btn" value="1" name="" id="" onclick="display.show.value += '1' " />
+
+        <!-- 2 Button  -->
+
+      <input type="button" class="btn" value="2" name="" id="" onclick="display.show.value += '2' " />
+
+         <!-- 3 Button  -->
+
+      <input type="button" class="btn" value="3" name="" id=""  onclick="display.show.value += '3' " />
+
+         <!-- divide Button  -->
+
+      <input type="button" class="btn" value="/" name="" id="sym" onclick="display.show.value += '/' " />
+
+      <br />
+
+         <!-- 4 Button  -->
+
+      <input type="button" class="btn" value="4" name="" id="" onclick="display.show.value += '4' " />
+
+         <!-- 5 Button  -->
+
+      <input type="button" class="btn" value="5" name="" id="" onclick="display.show.value += '5' " />
+
+         <!-- 6 Button  -->
+
+      <input type="button" class="btn" value="6" name="" id="" onclick="display.show.value += '6' " />
+
+         <!-- multiply Button  -->
+
+      <input type="button" class="btn" value="x" name="" id="sym" onclick="display.show.value += 'x' " />
+
+      <br />
+
+         <!-- 7 Button  -->
+
+      <input type="button" class="btn" value="7" name="" id="" onclick="display.show.value += '7' " />
+
+         <!-- 8 Button  -->
+
+      <input type="button" class="btn" value="8" name="" id="" onclick="display.show.value += '8' " />
+
+         <!-- 9 Button  -->
+
+      <input type="button" class="btn" value="9" name="" id="" onclick="display.show.value += '9' " />
+
+         <!-- subtract Button  -->
+      
+      <input type="button" class="btn" value="-" name="" id="sym" onclick="display.show.value += '-' " />
+
+      <br />
+
+         <!-- 00 Button  -->
+
+      <input type="button" class="btn" value="00" name="" id="" onclick="display.show.value += '00' "/>
+
+         <!-- 0 Button  -->
+
+      <input type="button" class="btn" value="0" name="" id="" onclick="display.show.value += '0' " />
+
+         <!-- = Button (will evaluate all the process through eval method)  -->
+
+      <input type="button" class="btn" value="=" name="" id="equal" onclick="display.show.value = eval(display.show.value) " />
+
+         <!-- plus/add Button  -->
+
+      <input type="button" class="btn" value="+" name="" id="sym" onclick="display.show.value += '+' " />
+
+      <br />
+
+    </form>
+  </body>
+</html>
